@@ -1,4 +1,15 @@
 
+// const months = [
+//     "January", "February", "March", "April", "May", "June", 
+//     "July", "August", "September", "October", "November", "December"
+//   ];
+//   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+//   const nowDate = new Date()
+//   let nowMonth = months[nowDate.getMonth()]
+//   let nowDay = days[nowDate.getDay()]
+//   let year = nowDate.getFullYear()
+//   console.log(nowDay, nowMonth, year)
 
 function timeUpdate(){
     const clock = document.getElementById('clock');
