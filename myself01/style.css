@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+:root{
+    --primary: #868f96;
+    --secondary: #596164;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, var(--primary), var(--secondary));
+}
+
+#clock{
+    width: 300px;
+    min-height: 50px;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    background-color: #868f96;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 2rem;
+}
