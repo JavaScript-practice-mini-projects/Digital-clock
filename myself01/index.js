@@ -7,7 +7,6 @@ function timeUpdate(){
     let minutes = String(time.getMinutes()).padStart(2, '0');
     let seconds = String(time.getSeconds()).padStart(2, '0');
     let session = 'AM';
-    console.log(hours, minutes, seconds)
 
     if(hours >= 12){
         session = 'PM'
